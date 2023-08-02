@@ -67,7 +67,7 @@ export const MeasurementForm = () => {
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
-          className="grid grid-cols-2 justify-items-center gap-x-3 gap-y-3 w-[450px]"
+          className="grid grid-cols-2 justify-items-center gap-x-3 gap-y-3"
         >
           <FormField
             control={form.control}
